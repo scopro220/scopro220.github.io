@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Scott's Portfolio</title>
+  </head>
+  <body>
+    <div class="background-container">
+      <!-- Header -->
+
+      <section id="header">
+        <div class="header container">
+          <div class="nav-bar">
+            <div class="brand">
+              <a href="#hero">
+                <h1>
+                  <span class="highlight">S</span>cott
+                  <span class="highlight">P</span>rovence
+                </h1>
+              </a>
+            </div>
+            <div class="nav-list">
+              <div class="hamburger">
+                <div class="bar"></div>
+              </div>
+              <ul>
+                <li><a href="#hero" data-after="Home">Home</a></li>
+                <li><a href="#projects" data-after="Projects">Projects</a></li>
+                <li><a href="#footer" data-after="About">About</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hero Section -->
+
+      <section id="hero">
+        <div class="hero container">
+          <div>
+            <h1>Hello,</h1>
+            <h1>My Name is</h1>
+            <h1 class="highlight">Scott</h1>
+            <h1>I'm a Web Developer</h1>
+            <a href="#projects" type="button" class="link">Projects</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <div class="projects container">
+          <div class="projects-top">
+            <h1 class="section-title">
+              Recent<span class="highlight"> Projects</span>
+            </h1>
+          </div>
+          <div class="projects-bottom">
+            <div class="projects-item">
+              <h2>MyDaily</h2>
+              <p>
+                Web application to take notes, keep to-dos, check weather and
+                more. Built with the MERN stack, using openweather and Google
+                maps. Check the Github repo for more information.
+              </p>
+              <div class="projects-button-container">
+                <a
+                  href="https://quiet-dusk-81871.herokuapp.com"
+                  type="button"
+                  class="link project"
+                  target="_blank"
+                  >Website</a
+                >
+                <a href="#" type="button" class="link project">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me and Footer -->
+
+      <section id="about">
+        <div class="about container">
+          <div class="col-right">
+            <h1 class="section-title">
+              About <span class="highlight">Me</span>
+            </h1>
+            <h2>Full Stack Developer</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis tenetur, asperiores unde quidem, reprehenderit, minus
+              id temporibus sequi doloremque cupiditate laudantium? Totam ea
+              esse inventore quos cumque error tenetur beatae .
+            </p>
+            <p>
+              Dignissimos facere cupiditate provident quisquam qui quis officia
+              numquam asperiores, ipsum eveniet magnam nulla inventore animi
+              deserunt debitis vero minus voluptatum, quasi dolor rem laboriosam
+              atque aliquam? Omnis veniam nihil. Voluptate aperiam ullam
+              accusantium aliquid ex?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              beatae quas sint asperiores esse vero cum, facilis voluptates
+              nesciunt quasi temporibus placeat et itaque dolor accusantium
+              reiciendis assumenda unde labore?
+            </p>
+            <a href="./Resume.docx" class="link">Download Resume</a>
+          </div>
+        </div>
+        <div class="footer container">
+          <div class="brand">
+            <h1>
+              <span class="highlight">S</span>cott
+              <span class="highlight">P</span>rovence
+            </h1>
+          </div>
+          <h2>
+            Email:
+            <a href="mailto:scott.provence@yahoo.com"
+              >scott.provence@yahoo.com</a
+            >
+          </h2>
+          <div class="social-icon">
+            <div class="social-item">
+              <a href="https://www.linkedin.com/in/sprovence/" target="_blank"
+                ><i class="fab fa-linkedin fa-5x"></i
+              ></a>
+            </div>
+
+            <div class="social-item">
+              <a href="https://github.com/scopro220/" target="_blank"
+                ><i class="fab fa-github fa-5x"></i
+              ></a>
+            </div>
+          </div>
+          <p id="footer">Copyright &copy; 2020. All right reserved</p>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
