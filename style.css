@@ -302,6 +302,7 @@ p {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  height: 270px;
 }
 
 #projects .projects-item::after {
